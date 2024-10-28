@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/textHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#A5D0A4"
+        android:text="Gra w kości: Brajan Głowacki"
+        android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Licznik: 0"
+            android:textSize="24sp"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/textRes1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textRes2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textRes3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textRes4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textRes5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="24sp" />
+
+
+        <TextView
+            android:id="@+id/textThisResults"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wynik tego losowania: "
+            android:textSize="24sp"
+            android:layout_marginVertical="10dp"/>
+
+        <TextView
+            android:id="@+id/textResults"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wynik gry: "
+            android:textSize="24sp"
+            android:layout_marginVertical="10dp"/>
+
+        <Button
+            android:id="@+id/buttonThrow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Rzuć kośćmi"
+            android:layout_marginTop="40dp"/>
+
+        <Button
+            android:id="@+id/buttonReset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Resetuj wynik" />
+    </LinearLayout>
