@@ -37,8 +37,8 @@
             android:id="@+id/textRes1"
             android:layout_width="70dp"
             android:layout_height="70dp"
-            android:background="#FFFFFF"
             android:layout_marginHorizontal="3dp"
+            android:background="#FFFFFF"
             android:text=""
             android:textSize="24sp" />
 
@@ -98,18 +98,22 @@
 
     <Button
         android:id="@+id/buttonThrow"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="70dp"
         android:backgroundTint="#D2691E"
-        android:text="Rzuć kośćmi" />
+
+        android:text="Rzuć kośćmi"
+        android:textSize="24dp"/>
 
     <Button
         android:id="@+id/buttonReset"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:backgroundTint="#D2691E"
-        android:text="Resetuj wynik" />
+        android:text="Resetuj wynik"
+        android:layout_marginTop="250dp"
+        android:textSize="24dp"/>
 </LinearLayout>
